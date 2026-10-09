@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Garra Academia | Treinamento, disciplina e evolução</title>
+    <meta
+      name="description"
+      content="Site institucional da Garra Academia. Conheça a estrutura, modalidades, equipe e canais de contato oficiais."
+    />
+    <meta name="theme-color" content="#090909" />
+    <meta property="og:title" content="Garra Academia" />
+    <meta
+      property="og:description"
+      content="Treine com propósito, desenvolva sua força e construa uma rotina de evolução."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="brand-mark" href="#inicio" aria-label="Garra Academia - Início">
+          <img src="./public/img/logo-garra.webp" alt="Logotipo oficial da Garra Academia" />
+        </a>
+
+        <nav class="desktop-nav" aria-label="Navegação principal">
+          <a href="#inicio">Início</a>
+          <a href="#modalidades">Modalidades</a>
+          <a href="#estrutura">Estrutura</a>
+          <a href="#equipe">Equipe</a>
+          <a href="#planos">Planos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <a class="header-cta" href="#contato">Conhecer a academia</a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+          <span class="menu-toggle__line"></span>
+          <span class="menu-toggle__line"></span>
+          <span class="menu-toggle__line"></span>
+          <span class="sr-only">Abrir menu</span>
+        </button>
+      </div>
+
+      <nav class="mobile-nav" id="mobile-menu" aria-label="Navegação mobile" data-mobile-menu>
+        <a href="#inicio">Início</a>
+        <a href="#modalidades">Modalidades</a>
+        <a href="#estrutura">Estrutura</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#planos">Planos</a>
+        <a href="#contato">Contato</a>
+        <a class="mobile-nav__cta" href="#contato">Solicitar aula experimental</a>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="./public/img/hero-academia.jpg" alt="" />
+        </div>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="hero-statement">Treinamento. Disciplina. Evolução.</p>
+            <h1 id="hero-title">Sua força<br />vai além.</h1>
+            <p class="hero-description">
+              Treine com propósito, desenvolva sua força e construa uma rotina que acompanhe sua evolução.
+            </p>
+            <div class="hero-actions" aria-label="Ações principais">
+              <a class="btn btn--primary" href="#contato">Quero conhecer a academia</a>
+              <a class="btn btn--secondary" href="#estrutura">Conheça nossa estrutura</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel" aria-label="Essência da Garra Academia">
+            <p>Rotina forte não nasce do improviso.</p>
+            <span>Consistência em cada treino.</span>
+          </aside>
+        </div>
+      </section>
+
+      <section class="identity-band" aria-label="Mensagem institucional">
+        <p>Força não se improvisa.</p>
+        <strong>Constrói-se treino após treino.</strong>
+      </section>
+
+      <section class="section section--modalities" id="modalidades" aria-labelledby="modalidades-title">
+        <div class="section-heading section-heading--split">
+          <div>
+            <h2 id="modalidades-title">Treinos com foco em evolução real.</h2>
+          </div>
+          <p>
+            A estrutura abaixo organiza as modalidades para publicação oficial. Ajuste nomes, horários e detalhes conforme as informações confirmadas pela equipe da Garra Academia.
+          </p>
+        </div>
+
+        <div class="modality-layout" data-config-list="modalities">
+          <article class="modality-card modality-card--wide">
+            <a class="modality-card__image" href="#contato" aria-label="Consultar informações sobre musculação">
+              <img src="./public/img/modalidade-musculacao.jpg" alt="Pessoa treinando em ambiente de musculação" loading="lazy" />
+            </a>
+            <div class="modality-card__content">
+              <span class="card-tag">Modalidade configurável</span>
+              <h3>Musculação</h3>
+              <p>Bloco preparado para detalhar equipamentos, acompanhamento e orientações confirmadas pela academia.</p>
+              <a href="#contato">Consultar disponibilidade</a>
+            </div>
+          </article>
+
+          <article class="modality-card">
+            <a class="modality-card__image" href="#contato" aria-label="Consultar informações sobre treinamento funcional">
+              <img src="./public/img/modalidade-funcional.jpg" alt="Treino funcional com movimento e condicionamento" loading="lazy" />
+            </a>
+            <div class="modality-card__content">
+              <span class="card-tag">Modalidade configurável</span>
+              <h3>Treinamento funcional</h3>
+              <p>Espaço para apresentar aulas, objetivos e formato depois da confirmação oficial.</p>
+              <a href="#contato">Pedir informações</a>
+            </div>
+          </article>
+
+          <article class="modality-card modality-card--tall">
+            <a class="modality-card__image" href="#contato" aria-label="Consultar informações sobre condicionamento físico">
+              <img src="./public/img/modalidade-condicionamento.jpg" alt="Atleta em treino de condicionamento físico" loading="lazy" />
+            </a>
+            <div class="modality-card__content">
+              <span class="card-tag">Modalidade configurável</span>
+              <h3>Condicionamento físico</h3>
+              <p>Área reservada para descrever objetivos, intensidade e indicação do treino.</p>
+              <a href="#contato">Falar com a equipe</a>
+            </div>
+          </article>
+
+          <article class="modality-card">
+            <a class="modality-card__image" href="#contato" aria-label="Consultar informações sobre treinamento personalizado">
+              <img src="./public/img/modalidade-personal.jpg" alt="Treinamento personalizado com orientação profissional" loading="lazy" />
+            </a>
+            <div class="modality-card__content">
+              <span class="card-tag">Modalidade configurável</span>
+              <h3>Treinamento personalizado</h3>
+              <p>Estrutura pronta para inserir especialidades, disponibilidade e regras de atendimento.</p>
+              <a href="#contato">Consultar atendimento</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section structure" id="estrutura" aria-labelledby="estrutura-title">
+        <div class="structure-copy">
+          <h2 id="estrutura-title">Um espaço pensado para manter o treino em movimento.</h2>
+          <p>
+            As imagens desta seção organizam a narrativa visual da academia. Substitua por registros reais do ambiente da Garra Academia quando a sessão fotográfica oficial estiver disponível.
+          </p>
+          <a class="text-link" href="#contato">Agendar uma visita ou pedir informações</a>
+        </div>
+
+        <div class="structure-gallery" aria-label="Galeria da estrutura da academia">
+          <figure class="structure-gallery__main">
+            <img src="./public/img/estrutura-geral.jpg" alt="Área de treino com equipamentos de academia" loading="lazy" />
+          </figure>
+          <figure>
+            <img src="./public/img/estrutura-halteres.jpg" alt="Halteres organizados para treino de força" loading="lazy" />
+          </figure>
+          <figure>
+            <img src="./public/img/estrutura-maquinas.jpg" alt="Máquinas e equipamentos de treinamento" loading="lazy" />
+          </figure>
+          <figure class="structure-gallery__detail">
+            <img src="./public/img/detalhe-barra.jpg" alt="Detalhe de barra e equipamentos de musculação" loading="lazy" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section plans" id="planos" aria-labelledby="planos-title">
+        <div class="plans-heading">
+          <h2 id="planos-title">Planos claros, sem informação inventada.</h2>
+          <p>
+            Valores, condições e benefícios devem ser publicados somente depois de confirmação oficial. Até lá, a seção direciona o visitante para o contato correto.
+          </p>
+        </div>
+
+        <div class="plans-grid">
+          <article class="plan-card plan-card--feature">
+            <div>
+              <span class="card-tag">Comercial</span>
+              <h3>Consulte nossos planos</h3>
+              <p>Receba informações atualizadas sobre modalidades, disponibilidade, condições e formas de contratação.</p>
+            </div>
+            <a class="btn btn--primary" href="#contato">Solicitar informações</a>
+          </article>
+
+          <article class="plan-note">
+            <h3>Para configurar depois</h3>
+            <ul>
+              <li>Nome real de cada plano.</li>
+              <li>Preço e condições confirmadas.</li>
+              <li>Benefícios autorizados para divulgação.</li>
+              <li>Link oficial de WhatsApp ou canal comercial.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section team" id="equipe" aria-labelledby="equipe-title">
+        <div class="section-heading section-heading--split">
+          <h2 id="equipe-title">Profissionais em evidência, com dados confirmados.</h2>
+          <p>
+            A área da equipe está pronta para receber nomes, fotos, especialidades e credenciais oficiais. Nenhum perfil fictício é exibido como real.
+          </p>
+        </div>
+
+        <div class="team-placeholder" role="list" aria-label="Campos preparados para equipe">
+          <div class="team-slot" role="listitem">
+            <span>Perfil 01</span>
+            <strong>Nome e especialidade a confirmar</strong>
+            <p>Inserir fotografia autorizada, formação e apresentação breve.</p>
+          </div>
+          <div class="team-slot" role="listitem">
+            <span>Perfil 02</span>
+            <strong>Nome e especialidade a confirmar</strong>
+            <p>Adicionar somente informações aprovadas para publicação.</p>
+          </div>
+          <div class="team-slot" role="listitem">
+            <span>Perfil 03</span>
+            <strong>Nome e especialidade a confirmar</strong>
+            <p>Manter consistência visual com retratos oficiais da academia.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="conversion" aria-labelledby="conversion-title">
+        <div class="conversion-media" aria-hidden="true">
+          <img src="./public/img/cta-treino.jpg" alt="" loading="lazy" />
+        </div>
+        <div class="conversion-content">
+          <h2 id="conversion-title">Seu próximo passo começa aqui.</h2>
+          <p>Conheça a Garra Academia e descubra como começar sua rotina de treinamento.</p>
+          <a class="btn btn--primary" href="#contato">Fale com a equipe</a>
+        </div>
+      </section>
+
+      <section class="section testimonials" aria-labelledby="depoimentos-title">
+        <div class="testimonial-shell">
+          <div>
+            <h2 id="depoimentos-title">Depoimentos reais terão espaço próprio.</h2>
+            <p>
+              A seção fica preparada para receber avaliações autorizadas de alunos, com texto e imagem somente quando houver permissão de uso.
+            </p>
+          </div>
+          <span aria-hidden="true">Publicação futura</span>
+        </div>
+      </section>
+
+      <section class="section contact" id="contato" aria-labelledby="contato-title">
+        <div class="contact-copy">
+          <h2 id="contato-title">Contato oficial da Garra Academia.</h2>
+          <p>
+            Preencha os dados oficiais para ativar telefone, WhatsApp, endereço, horários, redes sociais e mapa. Enquanto isso, os CTAs direcionam para esta seção sem criar links falsos.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <article class="contact-card">
+            <h3>Informações configuráveis</h3>
+            <dl>
+              <div>
+                <dt>Endereço</dt>
+                <dd>Aguardando endereço confirmado</dd>
+              </div>
+              <div>
+                <dt>Telefone</dt>
+                <dd>Aguardando telefone oficial</dd>
+              </div>
+              <div>
+                <dt>WhatsApp</dt>
+                <dd>Aguardando número oficial</dd>
+              </div>
+              <div>
+                <dt>Horários</dt>
+                <dd>Aguardando horários confirmados</dd>
+              </div>
+            </dl>
+          </article>
+
+          <form class="contact-form" aria-label="Formulário de intenção de contato" data-contact-form>
+            <h3>Deixe sua intenção de contato</h3>
+            <p>Este formulário registra a mensagem localmente para validação visual. Conecte um serviço de envio antes de publicar como canal oficial.</p>
+            <label>
+              Nome
+              <input type="text" name="name" autocomplete="name" placeholder="Seu nome" required />
+            </label>
+            <label>
+              Interesse
+              <select name="interest" required>
+                <option value="">Selecione uma opção</option>
+                <option value="plans">Planos</option>
+                <option value="visit">Visita à estrutura</option>
+                <option value="classes">Modalidades</option>
+              </select>
+            </label>
+            <label>
+              Mensagem
+              <textarea name="message" rows="4" placeholder="Conte rapidamente o que você procura"></textarea>
+            </label>
+            <button class="btn btn--primary" type="submit">Preparar mensagem</button>
+            <p class="form-feedback" role="status" aria-live="polite" data-form-feedback></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="./public/img/logo-garra.webp" alt="Logotipo oficial da Garra Academia" />
+          <p>Treinamento, disciplina e evolução com identidade própria.</p>
+        </div>
+        <nav aria-label="Navegação do rodapé">
+          <a href="#inicio">Início</a>
+          <a href="#modalidades">Modalidades</a>
+          <a href="#estrutura">Estrutura</a>
+          <a href="#planos">Planos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <div class="footer-contact">
+          <span>Contato e localização</span>
+          <p>Dados oficiais pendentes de configuração.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span data-current-year></span> Garra Academia. Todos os direitos reservados.</p>
+        <p>Site preparado para informações oficiais confirmadas.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
